@@ -1,0 +1,94 @@
+// 1
+cd Documents
+mkdir M_Fahad
+cd M_Fahad
+touch f1 f2 f3 f4 f5
+chmod 600 f1
+ls -l
+chmod 770 f2
+ls -l
+
+// 2
+//open 2 applications
+//calculator
+//word
+top
+pidof gnome-calculator
+kill pidof
+pidof yelp //Help
+kill pidof
+pidof gedit
+kill pidof
+
+//3
+cat > file1
+cat > file2
+cat file1 file2 > file3
+cat file3
+sudo chown root file3
+ls -l
+
+//4
+stat f2
+touch -a f2
+stat f2
+
+//5
+nano Q5.sh
+
+	echo "Enter Your Full Name"
+	read fName
+	echo "Enter Your Id"
+	read id
+	echo "Enter your Semester"
+	read semester
+	echo "Enter your Program"
+	read program
+	echo "Enter Your Cousre"
+	read course
+	echo "Enter your Section"
+	read section
+	
+
+	echo "============= Bio Data ============="
+	echo "| Name\t|\t$fName \t|"
+	echo "| ID\t|\t$id \t|"
+	echo "| Semester\t|\t$semester \t|"
+	echo "| Program\t|\t$program \t|"
+	echo "| Course\t|\t$course \t|"
+	echo "| Section\t|\t$section \t|"
+	
+bach Q5.sh
+
+nano Q6.sh
+
+	#! /bin/sh
+
+	echo "Enter Student Marks"
+	read markss
+
+	if [ $marks -ge 50 ]
+	then 
+		echo "He/She is eligible"
+	else
+		echo "Not Eligible!"
+	fi
+
+bach Q6.sh
+
+// 7
+nano Q7.sh
+
+	#! /bin/sh
+
+	echo "Enter First Number: \b"
+	read n1
+	echo "Enter Second Number: \b"
+	read n2
+
+	echo "Addition : `expr $n1 + $n2`"
+	echo "Subtraction : `expr $n1 - $n2`"
+	echo "Multiplication : `expr $n1 \* $n2`"
+	echo "Division : `expr $n1 / $n2`"
+
+bach Q7.sh
