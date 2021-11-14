@@ -1,0 +1,54 @@
+.NET = 			80 $/hr
+User Experience = 	90 $/hr
+Manager = 		100 $/hr
+
+
+.NET = 			100 hr	=> 8000 $/hr
+User Experience = 	50 hr 	=> 4500 $/hr
+Manager = 		100 hr 	=> 10000 $/hr
+
+Overall project(in dollar) 	= 8000 + 4500 + 10000 = 	$ 22,500 
+
+Overall project(in pakistan) 	= 				Rs. 3878745.75
+
+================================================================================
+
+.NET = 			25,000 per month = 142.04 Rs/hr 		= Rs. 14,204
+User Experience = 	33,000 per month = 187.5  Rs/hr 		= Rs. 9375
+Manager = 		50,000 per month = 284.09 Rs/hr			= Rs. 28,409
+Overall (in pakistani) = 						= Rs. 51,988 
+Overall (in pakistani in dollar) = 					= $. 302.2
+
+
+
+SLOC
+
+Estimted System = 	33,200 LOC
+Average Productivity = 	620 LOC per month
+Developer =		6 developer
+Labor =			800 dollar per month
+
+===========================
+Total Estimation (Effort/People) = 33,200 / 620 	= 53.54
+Total LOC per month 					= 3,720 LOC
+Total Developer Cost 					= 4,800 dollar
+Total Months 						= 8.92 months
+Total Cost 						= 42,816 dollar
+
+
+SLIM
+
+Loc = 32,000
+C = 1000
+T = 10 
+
+
+K = (LOC /(C * t(4/3)) * 3) 
+	
+K = (32,000 / (1000 * (10 * (4/3)))) * 3
+
+k = 
+
+k = 7.2 Person/month
+ 
+
