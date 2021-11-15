@@ -24,11 +24,13 @@ function factorial(){
   echo "$ansToPrint = $answer"
 }
 
-function (){
+function identify(){
   if [ $1 -ge 1 ]
   then
     echo "Odd"
-  else
+  elif [ $1 -le -1 ]
+  then
     echo "Even"
-
+  else
+    echo "Natural"
 }
