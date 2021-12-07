@@ -1,0 +1,8 @@
+Business Layer
+
+8.2.5 The “ArchiSurance Contact Center”, modeled as a business actor, is composed of three employees, also modeled as business actors: “Greg”, “Joan”, and “Larry”. The “ArchiSurance Contact Center” has three business interfaces to serve customers: “Phone”, “E-mail”, and “Web Chat”. Greg fulfills the business role of “Travel Insurance Claim Analyst”, Joan fulfills the business role of “Home Insurance Product Specialist”, and Larry fulfills the business role of “Customer Service Representative”. The former two business roles are specializations of a business role “Specialist”. “High-Risk Claims Adjudication” is a business collaboration of two business roles: “Specialist” and “Customer Service Representative”.
+
+8.4.4 The business object “Claim” may be realized by either of the following three physical representations (in different stages of the claims administration process): “Submission Form”, “Claim File Summary”, or “Claim Letter”. All of these representations refer to a representation “Policy Summary”, which realizes a contract “Insurance Policy”.
+
+
+8.5.2 A product “Insurance” consists of a contract “Insurance Policy” and a business service “Customer Service”, which aggregates four other business services: “Application”, “Renewal”, “Claims Processing”, and “Appeal”. An “Auto Insurance” product is a specialization of the generic “Insurance” product, with an additional business service “Drive Well and Save”, and accompanying contract “Drive Well and Save Agreement”.
