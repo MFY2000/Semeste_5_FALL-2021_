@@ -23,4 +23,8 @@ Application Layer
 
 9.4.2 An “Online Insurance Quotation” data object is composed of three other data objects: “Quoted Price”, “Terms and Conditions”, and “Certificate of Authenticity”. “Auto Insurance Quotation” and “Travel Insurance Quotation” are two specializations of the “Online Insurance Quotation” data object. “Travel Insurance Quotation” contains an additional data object “Purchased Itinerary”.
 
-Overall Question
+
+
+need to do:
+8.3.6 “Claims Administration” is a business function that is composed of a number of business processes and a business interaction. This business function realizes a “Claims Processing” business service. A business event “Claim Filed” triggers the first business process “Accept Claim”, which in turn triggers a business process “Assign Claim”. Depending on the type of claim, either the business process “Adjudicate Standard Claim” or the business interaction “Adjudicate High-Risk Claim” is performed. Adjudication of high-risk claims is a business interaction because, according to the company policy, two people should always be involved in this activity to minimize the risk of fraud. After adjudication, the business processes “Notify Customer” and “Pay Claim” are performed in parallel, and when both have finished, business process “Close Claim” is triggered.
+
