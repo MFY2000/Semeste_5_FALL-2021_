@@ -6,3 +6,21 @@ Business Layer
 
 
 8.5.2 A product “Insurance” consists of a contract “Insurance Policy” and a business service “Customer Service”, which aggregates four other business services: “Application”, “Renewal”, “Claims Processing”, and “Appeal”. An “Auto Insurance” product is a specialization of the generic “Insurance” product, with an additional business service “Drive Well and Save”, and accompanying contract “Drive Well and Save Agreement”.
+
+Technology Layer
+
+10.2.8 Two “Blade System” devices are connected to a communication network “Data Center Network”. This in turn is connected to another communication network “Wide Area Network” through a node “Data Center Switch”. The two communication networks together realize a path “Data Replication Path”. Both “Blade System” devices and the “Data Center Switch” node have a technology interface “Management Interface”. Device “Blade System 1” deploys “Hypervisor” system software for hardware virtualization. Two system software components are deployed on the “Hypervisor”: an “Open Source Operating System” and a “Proprietary Operating System”, creating two virtual hosts, modeled as nodes “Quotation Virtual Host” and “Purchase Virtual Host”.
+
+10.3.6 A technology event “Database Update” triggers a technology process “Replicate Remote Data”, which is served by a technology service “Database Update Replication”. This technology service is realized by a technology function “Database Replication”, which is composed of four other technology functions: “Administrate Replication”, “Handle Local Updates”, “Handle Remote Updates”, and “Monitor Replication Status”. There are information flows from the “Administrate Replication” technology function to the other three technology functions.
+
+10.4.2 A “Web Archive” artifact (which may realize an application component) is composed of two other artifacts: “Database Access Java Archive” and “Business Logic Java Archive”. Two specializations of the “Web Archive” artifact are a “Purchase Application Web Archive” and a “Quotation Application Web Archive”. A “Travel Insurance Database” artifact (which may realize a data object) is associated with the “Web Archive” artifact.
+
+Application Layer
+
+9.2.4 The “Online Travel Insurance Sales” application collaboration aggregates two application components: “Quotation” and “Purchase”. The application collaboration provides an application interface “Web Services Interface” that serves another application component “Travel Website”.
+
+9.3.6 The “Purchase Travel Insurance” application function is composed of two other application functions: “Prepare Quotation”, realizing an application service “Get Quotation”, and “Finalize Purchase”, realizing an application service “Purchase Quoted Insurance”. These application functions model the behavior of the “Quotation” and “Purchase” application components of Example 27. An application event “Request for a Quotation” triggers an application process “Obtain Travel Insurance”, which is served by the two aforementioned application services.
+
+9.4.2 An “Online Insurance Quotation” data object is composed of three other data objects: “Quoted Price”, “Terms and Conditions”, and “Certificate of Authenticity”. “Auto Insurance Quotation” and “Travel Insurance Quotation” are two specializations of the “Online Insurance Quotation” data object. “Travel Insurance Quotation” contains an additional data object “Purchased Itinerary”.
+
+Overall Question
