@@ -1,4 +1,9 @@
 package com.company;
 
-public interface IShapes {
+public abstract class IShapes {
+    public String nameOfShape;
+
+    void draw(){
+
+    };
 }
