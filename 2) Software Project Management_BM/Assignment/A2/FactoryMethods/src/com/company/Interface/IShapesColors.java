@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Interface;
 
 public interface IShapesColors {
     void Colored(String nameOfShape);
