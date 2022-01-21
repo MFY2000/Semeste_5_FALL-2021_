@@ -38,6 +38,7 @@ int RR(){
             temp[i] = temp[i] - quant;  
             sum = sum + quant;    
         }  
+
         if(temp[i]==0 && count==1){  
             y--;
             printf("\n|      %d     |      %d      |      %d     |\t%d\t|\t%d\t|", (i+1),at[i], bt[i], sum-at[i], (bt[i]-sum-at[i]));  
